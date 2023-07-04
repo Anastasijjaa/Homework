@@ -8,7 +8,7 @@ public class Main {
 
         Random newRandom = new Random();
         int randomNumber = newRandom.nextInt(10);
-        System.out.println("Number:" + randomNumber); //pokazivaet pravilnoe cislo
+        System.out.println("Number:" + randomNumber); // show generated number
 
         // Task: If Statement
         // Write a program that checks if a given number is positive. If the number is positive, print "Number is positive."
@@ -19,7 +19,7 @@ public class Main {
         }
 
         //  Task: If-Else Statement
-        //  Write a program that checks if a given number is even. If the number is even (chetnoe) / 2, print "Number is even." Otherwise, print "Number is odd."
+        //  Write a program that checks if a given number is even. If the number is even (/ 2), print "Number is even." Otherwise, print "Number is odd."
 
         if (randomNumber % 2 == 0) {
             System.out.println("This number is even: " + randomNumber);
